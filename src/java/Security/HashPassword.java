@@ -28,4 +28,11 @@ public class HashPassword {
         return newPassword;
 
     }
+    
+//    To generate new password for testing purposes    
+//    public static void main(String args[]) throws Exception{
+//        HashPassword h = new HashPassword("123456");
+//        
+//        System.out.print(h.generatePassword());
+//    }
 }
